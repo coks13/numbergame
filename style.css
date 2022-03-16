@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+h1{
+    color: lightgreen;
+    font-size: 32px;
+}
+ul{
+    margin-left: 33%;
+    font-size: 20px;
+
+}
+.btn-container{
+    background-color: grey;
+    text-align: center;
+}
+
+.p_head{
+    font-style: italic;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+}
+.container_head{
+    width: 100%;
+    height: 200px;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+}
+.p_regle{
+    font-size: 32px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.box_plage1{
+    width: 100px;
+    height: 200px;
+    border: solid 3px green;
+}
+.p_rdj{
+    margin-bottom: 70px;
+}
+
+.container {
+    background-color: lightseagreen;
+    margin-top: 18.75em;
+    text-align: center;
+    padding: 1.875em;
+    margin-top: 0px;
+    text-align: center;
+  }
+p, #won {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  
+#btn_user {
+    width:60%;
+    height: 40px;
+    margin: 10px;
+  }
+  
+#submit {
+    width: 60px;
+    height: 40px;
+  }
+#restart {
+    width: 70px;
+    height: 40px;
+  }
+#restart:hover {
+    background-color: lightgreen;
+    color: white;
+  }
+#submit:hover {
+    background-color: lightgreen;
+    color: white;
+  }
+.result {
+    margin: 0px;
+  }
+ 
