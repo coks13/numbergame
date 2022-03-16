@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Le Bon Nombre :)</title>
+  </head>
+  <body>
+    <section class="container_head">
+        <h1>PLUS PETIT OU PLUS GRAND</h1>
+            <div class="p_head">
+                <p >Un jeu Hétic</p>
+            </div>
+
+    </section>
+
+    <section>
+        <p class="p_regle">Règle du jeu :</p>
+        <ul class="p_rdj">
+            <li>Vous devez trouver un nombre entre 1 et 100</li>
+            <li>Ainsi, il faut rentrer un entier dans la boîte de dialogue</li>
+        </ul>
+    </section>
+    <div class="container">
+      <div class="header">
+        <p>Trouvez le nombre entre 1 et 100</p>
+        <p id="text">Entrez un nombre</p>
+      </div>
+      <div class="checkbox">
+        <input type="number" id="btn_user" />
+        <input type="submit" id="submit" value="Valide" />
+        <input type="submit" id="restart" value="Ressaye" />
+      </div>
+      <div class="image">
+        <img src="" alt="" />
+      </div>
+      <div class="restart"></div>
+      <div class="result">
+        <span id="won"></span>
+        <p>Nombre de tentatives : <span id="count">0</span></p>
+      </div>
+    </div>
+
+    <script src="number.js"></script>
+  </body>
+</html>
